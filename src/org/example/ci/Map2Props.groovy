@@ -6,5 +6,6 @@ class Map2Props {
         String conversion = ''
 
         map.each {key, value -> conversion = conversion + "${key}=${value}\n".toString()}
+        return conversion
     }
 }
